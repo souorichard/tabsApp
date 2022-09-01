@@ -1,114 +1,106 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Filmes</ion-title>
+    <ion-title>Series</ion-title>
+    <ion-icon name="menu" class="menu" slot="end"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6OEBp0Gqv6DsOgi8diPUslT2kbA.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Thor: Amor Trovão</h2>
-      <p>08/07/2022</p>
-      <ion-chip>
-        <ion-label color="primary">Ação</ion-label>
-      </ion-chip>
+  <div class="itemsContainer">
+    <ion-searchbar color="light" animated></ion-searchbar>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/r2w5UNf2mO2Mdl4q6HopuBms6XM.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Stranger Things</span>
+        <p>15/07/2016</p>
+        <ion-chip>
+          <ion-label color="primary">Drama</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
+        <ion-chip>
+          <ion-label color="danger">Mistério</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="tertiary">Fantasia</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+        <ion-chip>
+          <ion-label>Sci-Fi & Fantasy</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/tzFAboMUGJKoPQEtlxfxbbYsSWa.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Minions 2: A Origem de Gru</h2>
-      <p>30/06/2022</p>
-      <ion-chip>
-        <ion-label>Animação</ion-label>
-      </ion-chip>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/i0uajcHH9yogXMfDHpOXexIukG9.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Peaky Blinders: Sangue, Apostas e Navalhas</span>
+        <p>30/06/2022</p>
+        <ion-chip>
+          <ion-label color="primary">Drama</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
+        <ion-chip>
+          <ion-label color="warning">Crime</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-      <ion-chip>
-        <ion-label color="warning">Comédia</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/hdKxcoV5CFc3sGOmbGXDXbx1cTZ.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Lúcifer</span>
+        <p>25/01/2016</p>
+        <ion-chip>
+          <ion-label color="warning">Crime</ion-label>
+        </ion-chip>
 
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/7qeiCNSmzrkcEyIWi8sIcsjrOyW.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Jurassic World: Domínio</h2>
-      <p>02/06/2022</p>
-      <ion-chip>
-        <ion-label color="primary">Ação</ion-label>
-      </ion-chip>
+        <ion-chip>
+          <ion-label>Sci-Fi & Fantasy</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/k8rNqXvZ4A5xkRwIwLUg0pJ1hL9.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Resident Evil: A Série</span>
+        <p>14/07/2022</p>
+        <ion-chip>
+          <ion-label color="primary">Drama</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="tertiry">Ficção científica</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+        <ion-chip>
+          <ion-label>Sci-Fi & Fantasy</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/boIgXXUhw5O3oVkhXsE6SJZkmYo.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Doutor Estranho no Multiverso da Loucura</h2>
-      <p>05/05/2022</p>
-      <ion-chip>
-        <ion-label color="primary">Ação</ion-label>
-      </ion-chip>
-
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
-
-      <ion-chip>
-        <ion-label color="tertiry">Fantasia</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
-
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/7y181pPW5P6xhcEbAVTv01bVJov.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Exorcismo Sagrado</h2>
-      <p>31/03/2022</p>
-      <ion-chip>
-        <ion-label color="danger">Terror</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/tWtGNTJUAuiM2O9wv0jejw45Sji.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>A Anatomia de Grey</span>
+        <p>27/03/2006</p>
+        <ion-chip>
+          <ion-label color="primary">Drama</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
+  </div>
 </ion-content>

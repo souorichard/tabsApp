@@ -1,114 +1,118 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Filmes</ion-title>
+    <ion-title>Movies</ion-title>
+    <ion-icon name="menu" class="menu" slot="end"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6OEBp0Gqv6DsOgi8diPUslT2kbA.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Thor: Amor Trovão</h2>
-      <p>08/07/2022</p>
-      <ion-chip>
-        <ion-label color="primary">Ação</ion-label>
-      </ion-chip>
+  <div class="itemsContainer">
+    <ion-searchbar color="light" animated></ion-searchbar>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6OEBp0Gqv6DsOgi8diPUslT2kbA.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Thor: Amor Trovão</span>
+        <p>08/07/2022</p>
+        <ion-chip>
+          <ion-label>Ação</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
+        <ion-chip>
+          <ion-label color="secondary">Aventura</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="tertiary">Fantasia</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+        <ion-chip>
+          <ion-label color="tertiary">Fantasia</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/tzFAboMUGJKoPQEtlxfxbbYsSWa.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Minions 2: A Origem de Gru</h2>
-      <p>30/06/2022</p>
-      <ion-chip>
-        <ion-label>Animação</ion-label>
-      </ion-chip>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/tzFAboMUGJKoPQEtlxfxbbYsSWa.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Minions 2: A Origem de Gru</span>
+        <p>30/06/2022</p>
+        <ion-chip>
+          <ion-label>Animação</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
+        <ion-chip>
+          <ion-label color="secondary">Aventura</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="warning">Comédia</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+        <ion-chip>
+          <ion-label color="warning">Comédia</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/7qeiCNSmzrkcEyIWi8sIcsjrOyW.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Jurassic World: Domínio</h2>
-      <p>02/06/2022</p>
-      <ion-chip>
-        <ion-label color="primary">Ação</ion-label>
-      </ion-chip>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/7qeiCNSmzrkcEyIWi8sIcsjrOyW.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Jurassic World: Domínio</span>
+        <p>02/06/2022</p>
+        <ion-chip>
+          <ion-label color="primary">Ação</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
+        <ion-chip>
+          <ion-label color="secondary">Aventura</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="tertiry">Ficção científica</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+        <ion-chip>
+          <ion-label color="tertiry">Ficção científica</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/boIgXXUhw5O3oVkhXsE6SJZkmYo.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Doutor Estranho no Multiverso da Loucura</h2>
-      <p>05/05/2022</p>
-      <ion-chip>
-        <ion-label color="primary">Ação</ion-label>
-      </ion-chip>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/boIgXXUhw5O3oVkhXsE6SJZkmYo.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Doutor Estranho no Multiverso da Loucura</span>
+        <p>05/05/2022</p>
+        <ion-chip>
+          <ion-label color="primary">Ação</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="secondary">Aventura</ion-label>
-      </ion-chip>
+        <ion-chip>
+          <ion-label color="secondary">Aventura</ion-label>
+        </ion-chip>
 
-      <ion-chip>
-        <ion-label color="tertiry">Fantasia</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+        <ion-chip>
+          <ion-label color="tertiry">Fantasia</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
 
-  <ion-item>
-    <ion-thumbnail slot="start">
-      <img
-        src="https://www.themoviedb.org/t/p/w220_and_h330_face/7y181pPW5P6xhcEbAVTv01bVJov.jpg"
-      />
-    </ion-thumbnail>
-    <ion-label>
-      <h2>Exorcismo Sagrado</h2>
-      <p>31/03/2022</p>
-      <ion-chip>
-        <ion-label color="danger">Terror</ion-label>
-      </ion-chip>
-    </ion-label>
-  </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.themoviedb.org/t/p/w220_and_h330_face/7y181pPW5P6xhcEbAVTv01bVJov.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>
+        <span>Exorcismo Sagrado</span>
+        <p>31/03/2022</p>
+        <ion-chip>
+          <ion-label color="danger">Terror</ion-label>
+        </ion-chip>
+      </ion-label>
+    </ion-item>
+  </div>
 </ion-content>

@@ -25,19 +25,82 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  font-family: 'poppins';
+}
+
 //CSS Global
-ion-item {
-  margin-top: 12px;
+ion-toolbar {
+  display: flex;
+  box-shadow: 0 0 20px #000;
+
+  ion-title {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+  }
+
+  .menu {
+    font-size: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
 }
 
-ion-thumbnail {
-  width: 80px;
-  height: 120px;
-  object-fit: cover;
-  object-position: center;
+ion-tab-bar {
+  box-shadow: 0 0 20px #000;
 }
 
-ion-thumbnail img {
+.itemsContainer {
   width: 100%;
-  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  ion-searchbar {
+    margin-bottom: 1rem;
+    --border-radius: 25px !important;
+  }
+
+  ion-item {
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+    border-radius: 10px;
+    --background: #292834;
+    box-shadow: 0 0 20px #000;
+    cursor: pointer;
+  }
+
+  ion-item:first-child {
+    margin-top: 0;
+  }
+
+  ion-thumbnail {
+    width: 70px;
+    height: fit-content;
+  }
+
+  ion-thumbnail img {
+    border-radius: 8px;
+    box-shadow: -5px 3px 15px #000;
+  }
+
+  ion-item ion-label span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 8px;
+  }
+
+  ion-item ion-label p {
+    font-weight: 300;
+    padding-left: 8px;
+    padding-top: 5px;
+  }
 }
